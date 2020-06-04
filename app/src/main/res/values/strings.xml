@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">ProCode</string>
+
+    "VENTANA INTERROGACIÓN"
+    <string name="tvInte">Una vez pulsas el botón de la esquina inferior derecha de la ventana principal, se te abrirá la segunda ventana en la cuál podrás elegir entre buscar una consulta
+    realizada anteriormente, introduciendo el nombre que le diste a esa aplicación o programa y pulsando el botón buscar te llevará a la ventana final, o bién introducir un nombre nuevo y proceder con
+    la serie de preguntas para determinar que lenguaje de programación está más acorde con los criterios que respondiste. \n\n Si eliges la segunda opción solo es ir respondiendo las preguntas e ir avanzando
+    hasta llegar a la ventana final en la que te aparecerán dos opciones, una primera opción más acorde y una segunda opción también posible por si te ves más familiarizado con el segundo lenguaje que
+    con el primero. En esa misma ventana final hay un botón de guardar que una vez lo pulses se te guardarán tus respuesta y las opciones que salieron en una base de datos para poder acceder a ella
+    cuando desees, de la forma que le comenté más arriba.</string>
+
+    "VENTANA 1 --> PRIMERA PREGUNTA"
+    <string name="tvQ1">¿Qué deseas realizar?</string>
+    <string name="Q1RB1">Una página web</string>
+    <string name="Q1RB2">Una aplicación de escritorio</string>
+    <string name="Q1RB3">Una aplicación móvil</string>
+    <string name="Q1RB4">Programar un servidor</string>
+
+    "VENTANA 2(ABC) --> SEGUNDA PREGUNTA"
+    <string name="tvQ2">¿Para qué público va a estar enfocada?</string>
+    <string name="Q2RB1">Profesionales</string>
+    <string name="Q2RB2">Para niños</string>
+    <string name="Q2RB3">Usuario medio</string>
+    <string name="Q2RB4">Todo tipo</string>
+
+    "VENTANA 2(D) --> SEGUNDA PREGUNTA"
+    <string name="tvQ2D">¿Para qué va a ser creado el servidor?</string>
+    <string name="Q2DRB1">Empresa</string>
+    <string name="Q2DRB2">Página Web</string>
+    <string name="Q2DRB3">Aplicación de escritorio</string>
+    <string name="Q2DRB4">Aplicación móvil</string>
+
+    "VENTANA 3 --> TERCERA PREGUNTA"
+    <string name="tvQ3">¿Qué nivel de dificultad o detalle vas a emplear?</string>
+    <string name="Q3RB1">Complejos</string>
+    <string name="Q3RB2">Simples</string>
+    <string name="Q3RB3">Intermedio, complejos y simples</string>
+
+    "VENTANA 4A --> QUARTA PREGUNTA"
+    <string name="tvQ4A">¿Tienes alguna preferencia de navegador para abrir tu página web?</string>
+    <string name="Q4RB1A">Google Chrome</string>
+    <string name="Q4RB2A">Mozilla Firefox</string>
+    <string name="Q4RB3A">Internet Explorer</string>
+    <string name="Q4RB4A">Es indiferente</string>
+
+    "VENTANA 4B --> QUARTA PREGUNTA"
+    <string name="tvQ4B">¿En qué sistema operativo se va a ejecutar?</string>
+    <string name="Q4RB1B">Windows</string>
+    <string name="Q4RB2B">Mac</string>
+    <string name="Q4RB3B">Linux</string>
+    <string name="Q4RB4B">Solaris</string>
+
+    "VENTANA 4C --> QUARTA PREGUNTA"
+    <string name="tvQ4C">¿En qué sistemas operativo móvil se va a ejecutar tu aplicación?</string>
+    <string name="Q4RB1C">Android</string>
+    <string name="Q4RB2C">IOS</string>
+    <string name="Q4RB3C">Windows Phone</string>
+    <string name="Q4RB4C">Linux</string>
+
+    "VENTANA 4D --> QUARTA PREGUNTA"
+    <string name="tvQ4D">¿Qué tipo de servidor vas a programar?</string>
+    <string name="Q4RB1D">Servidor web</string>
+    <string name="Q4RB2D">Servidor dedicado</string>
+    <string name="Q4RB3D">Windows Servidor FTP</string>
+    <string name="Q4RB4D">Servidor en la nube</string>
+
+</resources>

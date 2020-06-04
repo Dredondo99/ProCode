@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img1"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/titMain"
+        android:layout_width="303dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="PROCODE"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tit2Main"
+        android:layout_width="91dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="by REDO"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="366dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/inteMain"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:background="#66FFFFFF"
+                android:onClick="interrogar"
+                android:tint="#00FFFFFF"
+                app:srcCompat="@android:drawable/ic_menu_help" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/avanMain"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:background="#66FFFFFF"
+                android:onClick="avanzar"
+                android:tint="#00FFFFFF"
+                app:srcCompat="@android:drawable/ic_menu_send" />
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/ustglobal"
+        android:layout_width="175dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="56dp"
+        android:clickable="true"
+        android:onClick="ustGlobal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0384F4"
+    tools:context=".ventana4_resq4C">
+
+    <TextView
+        android:id="@+id/TVent4C"
+        android:layout_width="372dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="@string/tvQ4C"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup6"
+        android:layout_width="239dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVent4C">
+
+        <RadioButton
+            android:id="@+id/RBVent4.1C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q4RB1C"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/RBVent4.2C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q4RB2C"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/RBVent4.3C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q4RB3C"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/RBVent4.4C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q4RB4C"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <TableLayout
+        android:layout_width="373dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup6">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/homeV4C"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:onClick="moviV4C"
+                app:srcCompat="@drawable/home" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/avanV4C"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:onClick="moviV4C"
+                app:srcCompat="@drawable/derecha" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="242dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="CUARTA PREGUNTA"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

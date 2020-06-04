@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.procode">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".VentNom"></activity>
+        <activity android:name=".VentResul" />
+        <activity android:name=".ventana4_resq4D" />
+        <activity android:name=".ventana4_resq4C" />
+        <activity android:name=".ventana4_resq4B" />
+        <activity android:name=".ventana4_resq4A" />
+        <activity android:name=".ventana3_resq3" />
+        <activity android:name=".ventana2_resq2D" />
+        <activity android:name=".ventana2_resq2ABC" />
+        <activity android:name=".ventInte" />
+        <activity android:name=".Ventana1Resq" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

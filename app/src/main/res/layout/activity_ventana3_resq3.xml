@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0384F4"
+    tools:context=".ventana3_resq3">
+
+    <TextView
+        android:id="@+id/TVent3.1"
+        android:layout_width="365dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="@string/tvQ3"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="257dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TVent3.1">
+
+        <RadioButton
+            android:id="@+id/RBVent3.1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q3RB1"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/RBVent3.2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q3RB2"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/RBVent3.3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Q3RB3"
+            android:textColor="#FFFFFF" />
+
+    </RadioGroup>
+
+    <TableLayout
+        android:layout_width="370dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup3">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="98dp">
+
+            <ImageButton
+                android:id="@+id/homeV3"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:onClick="moviV3"
+                app:srcCompat="@drawable/home" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/avanV3"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:onClick="moviV3"
+                app:srcCompat="@drawable/derecha" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="272dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="TERCERA PREGUNTA"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
